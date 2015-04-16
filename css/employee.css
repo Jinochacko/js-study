@@ -1,0 +1,11 @@
+*{padding: 0;margin: 0;float: left;}
+body{background: #000;color: #FFF;}
+#employee-container{margin: 0 auto;width: 100%;float: none;}
+h1{width: 100%;text-align: center;}
+.add-employee, .employee-details {width: 50%;}
+label, input{width: 100%;}
+input{width:75%;color: #3b3b3b;}
+table tr th,
+table tr td{width: 120px;border: 1px solid green;padding: 5px 0;height: 20px;}
+button {margin: 0 5px;color: #fff;border: 0;background: #bd2427;padding: 2px 5px;}
+#add-button {width: 200px;margin-top: 20px;padding: 10px;}

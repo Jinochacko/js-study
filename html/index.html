@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Employee Management</title>
+<script type="text/javascript" src="../js/employee.js"></script>
+<link rel="stylesheet" href="../css/employee.css" type="text/css" media="screen"></link>
+</head>
+<body>
+<div id="employee-container">
+	<h1>Employee Management</h1>
+	<section class="add-employee">
+		<label>Name</label>
+		<input placeholder="Full name" id="employee-name" />
+		<label>Designation</label>
+		<input placeholder="Designation" id="employee-designation" />
+		<label>Email</label>
+		<input placeholder="Email address" id="employee-email" />
+		<button type="button" onclick="addEmployee();" data-editId="" id="add-button">Add employee</button>
+	</section>
+	<section class="employee-details">
+		<table id="employeeTable">
+			<tr>
+				<th>Name</th>
+				<th>Designation</th>
+				<th>Email</th>
+				<th>Action</th>
+			</tr>
+		</table>
+	</section>
+</div>
+</body>
+</html> 
